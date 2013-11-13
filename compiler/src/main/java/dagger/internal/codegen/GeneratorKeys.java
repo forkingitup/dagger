@@ -44,7 +44,7 @@ final class GeneratorKeys {
    * generated code.
    */
   public static String rawMembersKey(TypeMirror type) {
-    return "members/" + rawTypeToString(type, '$');
+    return "members/" + ""+ rawTypeToString(type, '$');
   }
 
   /** Returns the provider key for {@code type}. */
